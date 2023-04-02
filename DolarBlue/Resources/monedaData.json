@@ -1,0 +1,10 @@
+[{"casa":{"compra":"207,24","venta":"216,24","agencia":"349","nombre":"Dolar Oficial","variacion":"0,20","ventaCero":"TRUE","decimales":"2"}},
+	{"casa":{"compra":"390,00","venta":"394,00","agencia":"310","nombre":"Dolar Blue","variacion":"-0,25","ventaCero":"TRUE","decimales":"2"}},
+	{"casa":{"compra":"No Cotiza","venta":"0","agencia":"311","nombre":"Dolar Soja","variacion":"0","ventaCero":"TRUE","decimales":"3"}},
+	{"casa":{"compra":"402,50","venta":"403,24","agencia":"312","nombre":"Dolar Contado con Liqui","variacion":"1,12","ventaCero":"TRUE","decimales":"2"}},
+	{"casa":{"compra":"393,570","venta":"392,870","agencia":"313","nombre":"Dolar Bolsa","variacion":"0,950","ventaCero":"TRUE","decimales":"3"}},
+	{"casa":{"compra":"9.852,070","venta":"0","agencia":"399","nombre":"Bitcoin","variacion":"-100,00","ventaCero":"TRUE","decimales":"3"}},
+	{"casa":{"nombre":"Dolar turista","compra":"No Cotiza","venta":"378,42","agencia":"406","variacion":"0,20","ventaCero":"TRUE","decimales":"2"}},
+	{"casa":{"compra":"205,92","venta":"216,54","agencia":"302","nombre":"Dolar","decimales":"3"}},
+	{"casa":{"nombre":"Argentina","compra":"2.302,00","venta":"-0,09","mejor_compra":"True","mejor_venta":"False","fecha":"05\/05\/15","recorrido":"16:30","afluencia":{},"agencia":"141","observaciones":{}}}
+]

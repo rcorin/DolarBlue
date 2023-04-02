@@ -1,0 +1,1035 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1611E08B29D75D6600444B77 /* DolarBlueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1611E08A29D75D6600444B77 /* DolarBlueApp.swift */; };
+		1611E08D29D75D6600444B77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1611E08C29D75D6600444B77 /* ContentView.swift */; };
+		1611E08F29D75D6700444B77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1611E08E29D75D6700444B77 /* Assets.xcassets */; };
+		1611E09229D75D6700444B77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1611E09129D75D6700444B77 /* Preview Assets.xcassets */; };
+		1611E09C29D75D6700444B77 /* DolarBlueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1611E09B29D75D6700444B77 /* DolarBlueTests.swift */; };
+		1611E0A629D75D6700444B77 /* DolarBlueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1611E0A529D75D6700444B77 /* DolarBlueUITests.swift */; };
+		1611E0A829D75D6700444B77 /* DolarBlueUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1611E0A729D75D6700444B77 /* DolarBlueUITestsLaunchTests.swift */; };
+		1611E0B729D763C100444B77 /* monedaData.json in Resources */ = {isa = PBXBuildFile; fileRef = 1611E0B629D763C100444B77 /* monedaData.json */; };
+		1611E0B929D767EC00444B77 /* Cotizacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1611E0B829D767EC00444B77 /* Cotizacion.swift */; };
+		1611E0BB29D7723D00444B77 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1611E0BA29D7723D00444B77 /* ModelData.swift */; };
+		16226FC229D9E1090061A3A4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16226FC629D9E1090061A3A4 /* Localizable.strings */; };
+		16226FC329D9E1090061A3A4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16226FC629D9E1090061A3A4 /* Localizable.strings */; };
+		16226FC429D9E1090061A3A4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16226FC629D9E1090061A3A4 /* Localizable.strings */; };
+		16BCDDBC29D8583F008439FF /* TriangleUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BCDDBB29D8583F008439FF /* TriangleUp.swift */; };
+		16BCDDC029D85D2C008439FF /* Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BCDDBF29D85D2C008439FF /* Equal.swift */; };
+		16BCDDC229D85D93008439FF /* TriangleDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BCDDC129D85D93008439FF /* TriangleDown.swift */; };
+		16BCDDCA29D88392008439FF /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16BCDDC929D88392008439FF /* WidgetKit.framework */; };
+		16BCDDCC29D88392008439FF /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16BCDDCB29D88392008439FF /* SwiftUI.framework */; };
+		16BCDDCF29D88392008439FF /* DolarBlueWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BCDDCE29D88392008439FF /* DolarBlueWidgetBundle.swift */; };
+		16BCDDD129D88392008439FF /* DolarBlueWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BCDDD029D88392008439FF /* DolarBlueWidgetLiveActivity.swift */; };
+		16BCDDD329D88392008439FF /* DolarBlueWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BCDDD229D88392008439FF /* DolarBlueWidget.swift */; };
+		16BCDDD529D88394008439FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16BCDDD429D88394008439FF /* Assets.xcassets */; };
+		16BCDDD929D88394008439FF /* DolarBlueWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 16BCDDC729D88392008439FF /* DolarBlueWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		16BCDDDE29D888F5008439FF /* TriangleUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BCDDBB29D8583F008439FF /* TriangleUp.swift */; };
+		16BE850729D8E9E2007DB5D2 /* DolarBlueWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BE850629D8E9E2007DB5D2 /* DolarBlueWatchApp.swift */; };
+		16BE850929D8E9E2007DB5D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BE850829D8E9E2007DB5D2 /* ContentView.swift */; };
+		16BE850B29D8E9E3007DB5D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16BE850A29D8E9E3007DB5D2 /* Assets.xcassets */; };
+		16BE850E29D8E9E3007DB5D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16BE850D29D8E9E3007DB5D2 /* Preview Assets.xcassets */; };
+		16BE851229D9128E007DB5D2 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1611E0BA29D7723D00444B77 /* ModelData.swift */; };
+		16BE851329D91291007DB5D2 /* Cotizacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1611E0B829D767EC00444B77 /* Cotizacion.swift */; };
+		16BE851429D91299007DB5D2 /* TriangleDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BCDDC129D85D93008439FF /* TriangleDown.swift */; };
+		16BE851529D9129A007DB5D2 /* TriangleDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BCDDC129D85D93008439FF /* TriangleDown.swift */; };
+		16BE851629D9129D007DB5D2 /* Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BCDDBF29D85D2C008439FF /* Equal.swift */; };
+		16BE851729D9129E007DB5D2 /* Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BCDDBF29D85D2C008439FF /* Equal.swift */; };
+		16BE851829D912A2007DB5D2 /* TriangleUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BCDDBB29D8583F008439FF /* TriangleUp.swift */; };
+		16EF358029D8CE0900F213C8 /* Cotizacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1611E0B829D767EC00444B77 /* Cotizacion.swift */; };
+		16EF358129D8CE0C00F213C8 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1611E0BA29D7723D00444B77 /* ModelData.swift */; };
+		16EF358529D8E61D00F213C8 /* CotizacionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EF358229D8E61D00F213C8 /* CotizacionDetail.swift */; };
+		16EF358629D8E61D00F213C8 /* CotizacionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EF358329D8E61D00F213C8 /* CotizacionRow.swift */; };
+		16EF358729D8E61D00F213C8 /* CotizacionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EF358429D8E61D00F213C8 /* CotizacionList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1611E09829D75D6700444B77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1611E07F29D75D6600444B77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1611E08629D75D6600444B77;
+			remoteInfo = DolarBlue;
+		};
+		1611E0A229D75D6700444B77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1611E07F29D75D6600444B77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1611E08629D75D6600444B77;
+			remoteInfo = DolarBlue;
+		};
+		16BCDDD729D88394008439FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1611E07F29D75D6600444B77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16BCDDC629D88392008439FF;
+			remoteInfo = DolarBlueWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		16BCDDDD29D88394008439FF /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				16BCDDD929D88394008439FF /* DolarBlueWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1611E08729D75D6600444B77 /* DolarBlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DolarBlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1611E08A29D75D6600444B77 /* DolarBlueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DolarBlueApp.swift; sourceTree = "<group>"; };
+		1611E08C29D75D6600444B77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1611E08E29D75D6700444B77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1611E09129D75D6700444B77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1611E09729D75D6700444B77 /* DolarBlueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DolarBlueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1611E09B29D75D6700444B77 /* DolarBlueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DolarBlueTests.swift; sourceTree = "<group>"; };
+		1611E0A129D75D6700444B77 /* DolarBlueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DolarBlueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1611E0A529D75D6700444B77 /* DolarBlueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DolarBlueUITests.swift; sourceTree = "<group>"; };
+		1611E0A729D75D6700444B77 /* DolarBlueUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DolarBlueUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1611E0B629D763C100444B77 /* monedaData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = monedaData.json; sourceTree = "<group>"; };
+		1611E0B829D767EC00444B77 /* Cotizacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cotizacion.swift; sourceTree = "<group>"; };
+		1611E0BA29D7723D00444B77 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		16226FC529D9E1090061A3A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		16226FC729D9E1170061A3A4 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		16BCDDBB29D8583F008439FF /* TriangleUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleUp.swift; sourceTree = "<group>"; };
+		16BCDDBF29D85D2C008439FF /* Equal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Equal.swift; sourceTree = "<group>"; };
+		16BCDDC129D85D93008439FF /* TriangleDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleDown.swift; sourceTree = "<group>"; };
+		16BCDDC729D88392008439FF /* DolarBlueWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DolarBlueWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		16BCDDC929D88392008439FF /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		16BCDDCB29D88392008439FF /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		16BCDDCE29D88392008439FF /* DolarBlueWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DolarBlueWidgetBundle.swift; sourceTree = "<group>"; };
+		16BCDDD029D88392008439FF /* DolarBlueWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DolarBlueWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		16BCDDD229D88392008439FF /* DolarBlueWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DolarBlueWidget.swift; sourceTree = "<group>"; };
+		16BCDDD429D88394008439FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16BCDDD629D88394008439FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16BE850429D8E9E2007DB5D2 /* DolarBlueWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DolarBlueWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16BE850629D8E9E2007DB5D2 /* DolarBlueWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DolarBlueWatchApp.swift; sourceTree = "<group>"; };
+		16BE850829D8E9E2007DB5D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		16BE850A29D8E9E3007DB5D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16BE850D29D8E9E3007DB5D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		16EF358229D8E61D00F213C8 /* CotizacionDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CotizacionDetail.swift; sourceTree = "<group>"; };
+		16EF358329D8E61D00F213C8 /* CotizacionRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CotizacionRow.swift; sourceTree = "<group>"; };
+		16EF358429D8E61D00F213C8 /* CotizacionList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CotizacionList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1611E08429D75D6600444B77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1611E09429D75D6700444B77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1611E09E29D75D6700444B77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BCDDC429D88392008439FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BCDDCC29D88392008439FF /* SwiftUI.framework in Frameworks */,
+				16BCDDCA29D88392008439FF /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BE850129D8E9E2007DB5D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1611E07E29D75D6600444B77 = {
+			isa = PBXGroup;
+			children = (
+				16226FC629D9E1090061A3A4 /* Localizable.strings */,
+				1611E08929D75D6600444B77 /* DolarBlue */,
+				1611E09A29D75D6700444B77 /* DolarBlueTests */,
+				1611E0A429D75D6700444B77 /* DolarBlueUITests */,
+				16BCDDCD29D88392008439FF /* DolarBlueWidget */,
+				16BE850529D8E9E2007DB5D2 /* DolarBlueWatch Watch App */,
+				16BCDDC829D88392008439FF /* Frameworks */,
+				1611E08829D75D6600444B77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1611E08829D75D6600444B77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1611E08729D75D6600444B77 /* DolarBlue.app */,
+				1611E09729D75D6700444B77 /* DolarBlueTests.xctest */,
+				1611E0A129D75D6700444B77 /* DolarBlueUITests.xctest */,
+				16BCDDC729D88392008439FF /* DolarBlueWidgetExtension.appex */,
+				16BE850429D8E9E2007DB5D2 /* DolarBlueWatch Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1611E08929D75D6600444B77 /* DolarBlue */ = {
+			isa = PBXGroup;
+			children = (
+				1611E0BE29D7729300444B77 /* Model */,
+				1611E0BD29D7728700444B77 /* Resources */,
+				1611E0BC29D7726600444B77 /* Views */,
+				1611E08A29D75D6600444B77 /* DolarBlueApp.swift */,
+				1611E08E29D75D6700444B77 /* Assets.xcassets */,
+				1611E09029D75D6700444B77 /* Preview Content */,
+			);
+			path = DolarBlue;
+			sourceTree = "<group>";
+		};
+		1611E09029D75D6700444B77 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1611E09129D75D6700444B77 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1611E09A29D75D6700444B77 /* DolarBlueTests */ = {
+			isa = PBXGroup;
+			children = (
+				1611E09B29D75D6700444B77 /* DolarBlueTests.swift */,
+			);
+			path = DolarBlueTests;
+			sourceTree = "<group>";
+		};
+		1611E0A429D75D6700444B77 /* DolarBlueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1611E0A529D75D6700444B77 /* DolarBlueUITests.swift */,
+				1611E0A729D75D6700444B77 /* DolarBlueUITestsLaunchTests.swift */,
+			);
+			path = DolarBlueUITests;
+			sourceTree = "<group>";
+		};
+		1611E0BC29D7726600444B77 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				16BCDDBA29D79B21008439FF /* Cotizacion */,
+				16BCDDB929D79AE6008439FF /* Helpers */,
+				1611E08C29D75D6600444B77 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1611E0BD29D7728700444B77 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1611E0B629D763C100444B77 /* monedaData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1611E0BE29D7729300444B77 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1611E0B829D767EC00444B77 /* Cotizacion.swift */,
+				1611E0BA29D7723D00444B77 /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		16BCDDB929D79AE6008439FF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				16BCDDC129D85D93008439FF /* TriangleDown.swift */,
+				16BCDDBF29D85D2C008439FF /* Equal.swift */,
+				16BCDDBB29D8583F008439FF /* TriangleUp.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		16BCDDBA29D79B21008439FF /* Cotizacion */ = {
+			isa = PBXGroup;
+			children = (
+				16EF358229D8E61D00F213C8 /* CotizacionDetail.swift */,
+				16EF358429D8E61D00F213C8 /* CotizacionList.swift */,
+				16EF358329D8E61D00F213C8 /* CotizacionRow.swift */,
+			);
+			path = Cotizacion;
+			sourceTree = "<group>";
+		};
+		16BCDDC829D88392008439FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16BCDDC929D88392008439FF /* WidgetKit.framework */,
+				16BCDDCB29D88392008439FF /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16BCDDCD29D88392008439FF /* DolarBlueWidget */ = {
+			isa = PBXGroup;
+			children = (
+				16BCDDCE29D88392008439FF /* DolarBlueWidgetBundle.swift */,
+				16BCDDD029D88392008439FF /* DolarBlueWidgetLiveActivity.swift */,
+				16BCDDD229D88392008439FF /* DolarBlueWidget.swift */,
+				16BCDDD429D88394008439FF /* Assets.xcassets */,
+				16BCDDD629D88394008439FF /* Info.plist */,
+			);
+			path = DolarBlueWidget;
+			sourceTree = "<group>";
+		};
+		16BE850529D8E9E2007DB5D2 /* DolarBlueWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				16BE850629D8E9E2007DB5D2 /* DolarBlueWatchApp.swift */,
+				16BE850829D8E9E2007DB5D2 /* ContentView.swift */,
+				16BE850A29D8E9E3007DB5D2 /* Assets.xcassets */,
+				16BE850C29D8E9E3007DB5D2 /* Preview Content */,
+			);
+			path = "DolarBlueWatch Watch App";
+			sourceTree = "<group>";
+		};
+		16BE850C29D8E9E3007DB5D2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				16BE850D29D8E9E3007DB5D2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1611E08629D75D6600444B77 /* DolarBlue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1611E0AB29D75D6700444B77 /* Build configuration list for PBXNativeTarget "DolarBlue" */;
+			buildPhases = (
+				1611E08329D75D6600444B77 /* Sources */,
+				1611E08429D75D6600444B77 /* Frameworks */,
+				1611E08529D75D6600444B77 /* Resources */,
+				16BCDDDD29D88394008439FF /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16BCDDD829D88394008439FF /* PBXTargetDependency */,
+			);
+			name = DolarBlue;
+			productName = DolarBlue;
+			productReference = 1611E08729D75D6600444B77 /* DolarBlue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1611E09629D75D6700444B77 /* DolarBlueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1611E0AE29D75D6700444B77 /* Build configuration list for PBXNativeTarget "DolarBlueTests" */;
+			buildPhases = (
+				1611E09329D75D6700444B77 /* Sources */,
+				1611E09429D75D6700444B77 /* Frameworks */,
+				1611E09529D75D6700444B77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1611E09929D75D6700444B77 /* PBXTargetDependency */,
+			);
+			name = DolarBlueTests;
+			productName = DolarBlueTests;
+			productReference = 1611E09729D75D6700444B77 /* DolarBlueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1611E0A029D75D6700444B77 /* DolarBlueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1611E0B129D75D6700444B77 /* Build configuration list for PBXNativeTarget "DolarBlueUITests" */;
+			buildPhases = (
+				1611E09D29D75D6700444B77 /* Sources */,
+				1611E09E29D75D6700444B77 /* Frameworks */,
+				1611E09F29D75D6700444B77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1611E0A329D75D6700444B77 /* PBXTargetDependency */,
+			);
+			name = DolarBlueUITests;
+			productName = DolarBlueUITests;
+			productReference = 1611E0A129D75D6700444B77 /* DolarBlueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		16BCDDC629D88392008439FF /* DolarBlueWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16BCDDDA29D88394008439FF /* Build configuration list for PBXNativeTarget "DolarBlueWidgetExtension" */;
+			buildPhases = (
+				16BCDDC329D88392008439FF /* Sources */,
+				16BCDDC429D88392008439FF /* Frameworks */,
+				16BCDDC529D88392008439FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DolarBlueWidgetExtension;
+			productName = DolarBlueWidgetExtension;
+			productReference = 16BCDDC729D88392008439FF /* DolarBlueWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		16BE850329D8E9E2007DB5D2 /* DolarBlueWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16BE851129D8E9E3007DB5D2 /* Build configuration list for PBXNativeTarget "DolarBlueWatch Watch App" */;
+			buildPhases = (
+				16BE850029D8E9E2007DB5D2 /* Sources */,
+				16BE850129D8E9E2007DB5D2 /* Frameworks */,
+				16BE850229D8E9E2007DB5D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DolarBlueWatch Watch App";
+			productName = "DolarBlueWatch Watch App";
+			productReference = 16BE850429D8E9E2007DB5D2 /* DolarBlueWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1611E07F29D75D6600444B77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1611E08629D75D6600444B77 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					1611E09629D75D6700444B77 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1611E08629D75D6600444B77;
+					};
+					1611E0A029D75D6700444B77 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1611E08629D75D6600444B77;
+					};
+					16BCDDC629D88392008439FF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					16BE850329D8E9E2007DB5D2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 1611E08229D75D6600444B77 /* Build configuration list for PBXProject "DolarBlue" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+			);
+			mainGroup = 1611E07E29D75D6600444B77;
+			productRefGroup = 1611E08829D75D6600444B77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1611E08629D75D6600444B77 /* DolarBlue */,
+				1611E09629D75D6700444B77 /* DolarBlueTests */,
+				1611E0A029D75D6700444B77 /* DolarBlueUITests */,
+				16BCDDC629D88392008439FF /* DolarBlueWidgetExtension */,
+				16BE850329D8E9E2007DB5D2 /* DolarBlueWatch Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1611E08529D75D6600444B77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1611E0B729D763C100444B77 /* monedaData.json in Resources */,
+				16226FC229D9E1090061A3A4 /* Localizable.strings in Resources */,
+				1611E09229D75D6700444B77 /* Preview Assets.xcassets in Resources */,
+				1611E08F29D75D6700444B77 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1611E09529D75D6700444B77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1611E09F29D75D6700444B77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BCDDC529D88392008439FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BCDDD529D88394008439FF /* Assets.xcassets in Resources */,
+				16226FC329D9E1090061A3A4 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BE850229D8E9E2007DB5D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BE850E29D8E9E3007DB5D2 /* Preview Assets.xcassets in Resources */,
+				16226FC429D9E1090061A3A4 /* Localizable.strings in Resources */,
+				16BE850B29D8E9E3007DB5D2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1611E08329D75D6600444B77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BCDDC029D85D2C008439FF /* Equal.swift in Sources */,
+				1611E08D29D75D6600444B77 /* ContentView.swift in Sources */,
+				16EF358629D8E61D00F213C8 /* CotizacionRow.swift in Sources */,
+				16BCDDBC29D8583F008439FF /* TriangleUp.swift in Sources */,
+				1611E08B29D75D6600444B77 /* DolarBlueApp.swift in Sources */,
+				16EF358729D8E61D00F213C8 /* CotizacionList.swift in Sources */,
+				1611E0BB29D7723D00444B77 /* ModelData.swift in Sources */,
+				16BCDDC229D85D93008439FF /* TriangleDown.swift in Sources */,
+				1611E0B929D767EC00444B77 /* Cotizacion.swift in Sources */,
+				16EF358529D8E61D00F213C8 /* CotizacionDetail.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1611E09329D75D6700444B77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1611E09C29D75D6700444B77 /* DolarBlueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1611E09D29D75D6700444B77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1611E0A629D75D6700444B77 /* DolarBlueUITests.swift in Sources */,
+				1611E0A829D75D6700444B77 /* DolarBlueUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BCDDC329D88392008439FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16EF358029D8CE0900F213C8 /* Cotizacion.swift in Sources */,
+				16BCDDD329D88392008439FF /* DolarBlueWidget.swift in Sources */,
+				16BCDDCF29D88392008439FF /* DolarBlueWidgetBundle.swift in Sources */,
+				16BCDDDE29D888F5008439FF /* TriangleUp.swift in Sources */,
+				16BE851429D91299007DB5D2 /* TriangleDown.swift in Sources */,
+				16BCDDD129D88392008439FF /* DolarBlueWidgetLiveActivity.swift in Sources */,
+				16BE851629D9129D007DB5D2 /* Equal.swift in Sources */,
+				16EF358129D8CE0C00F213C8 /* ModelData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BE850029D8E9E2007DB5D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BE851529D9129A007DB5D2 /* TriangleDown.swift in Sources */,
+				16BE851829D912A2007DB5D2 /* TriangleUp.swift in Sources */,
+				16BE850929D8E9E2007DB5D2 /* ContentView.swift in Sources */,
+				16BE850729D8E9E2007DB5D2 /* DolarBlueWatchApp.swift in Sources */,
+				16BE851329D91291007DB5D2 /* Cotizacion.swift in Sources */,
+				16BE851729D9129E007DB5D2 /* Equal.swift in Sources */,
+				16BE851229D9128E007DB5D2 /* ModelData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1611E09929D75D6700444B77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1611E08629D75D6600444B77 /* DolarBlue */;
+			targetProxy = 1611E09829D75D6700444B77 /* PBXContainerItemProxy */;
+		};
+		1611E0A329D75D6700444B77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1611E08629D75D6600444B77 /* DolarBlue */;
+			targetProxy = 1611E0A229D75D6700444B77 /* PBXContainerItemProxy */;
+		};
+		16BCDDD829D88394008439FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16BCDDC629D88392008439FF /* DolarBlueWidgetExtension */;
+			targetProxy = 16BCDDD729D88394008439FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16226FC629D9E1090061A3A4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16226FC529D9E1090061A3A4 /* en */,
+				16226FC729D9E1170061A3A4 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1611E0A929D75D6700444B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1611E0AA29D75D6700444B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1611E0AC29D75D6700444B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DolarBlue/Preview Content\"";
+				DEVELOPMENT_TEAM = P87EW78UZR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.moonlighting.dolarblue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1611E0AD29D75D6700444B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DolarBlue/Preview Content\"";
+				DEVELOPMENT_TEAM = P87EW78UZR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.moonlighting.dolarblue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1611E0AF29D75D6700444B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P87EW78UZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.moonlighting.dolarblue.DolarBlueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DolarBlue.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DolarBlue";
+			};
+			name = Debug;
+		};
+		1611E0B029D75D6700444B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P87EW78UZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.moonlighting.dolarblue.DolarBlueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DolarBlue.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DolarBlue";
+			};
+			name = Release;
+		};
+		1611E0B229D75D6700444B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P87EW78UZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.moonlighting.dolarblue.DolarBlueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DolarBlue;
+			};
+			name = Debug;
+		};
+		1611E0B329D75D6700444B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P87EW78UZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.moonlighting.dolarblue.DolarBlueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DolarBlue;
+			};
+			name = Release;
+		};
+		16BCDDDB29D88394008439FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P87EW78UZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DolarBlueWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DolarBlueWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.moonlighting.dolarblue.DolarBlueWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16BCDDDC29D88394008439FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P87EW78UZR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DolarBlueWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DolarBlueWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.moonlighting.dolarblue.DolarBlueWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16BE850F29D8E9E3007DB5D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DolarBlueWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = P87EW78UZR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DolarBlueWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		16BE851029D8E9E3007DB5D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DolarBlueWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = P87EW78UZR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DolarBlueWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1611E08229D75D6600444B77 /* Build configuration list for PBXProject "DolarBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1611E0A929D75D6700444B77 /* Debug */,
+				1611E0AA29D75D6700444B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1611E0AB29D75D6700444B77 /* Build configuration list for PBXNativeTarget "DolarBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1611E0AC29D75D6700444B77 /* Debug */,
+				1611E0AD29D75D6700444B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1611E0AE29D75D6700444B77 /* Build configuration list for PBXNativeTarget "DolarBlueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1611E0AF29D75D6700444B77 /* Debug */,
+				1611E0B029D75D6700444B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1611E0B129D75D6700444B77 /* Build configuration list for PBXNativeTarget "DolarBlueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1611E0B229D75D6700444B77 /* Debug */,
+				1611E0B329D75D6700444B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16BCDDDA29D88394008439FF /* Build configuration list for PBXNativeTarget "DolarBlueWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16BCDDDB29D88394008439FF /* Debug */,
+				16BCDDDC29D88394008439FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16BE851129D8E9E3007DB5D2 /* Build configuration list for PBXNativeTarget "DolarBlueWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16BE850F29D8E9E3007DB5D2 /* Debug */,
+				16BE851029D8E9E3007DB5D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1611E07F29D75D6600444B77 /* Project object */;
+}

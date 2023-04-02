@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  DolarBlue
+
+  Created by Ricardo CORIN on 4/2/23.
+  
+*/
+"Price" = "Price";
+"Blue Dollar" = "Blue Dollar";
+"Official Dollar" = "Official Dollar";
+"Updating..." = "Updating...";
+"Updated on {DAY} at {TIME}" = "Updated on {DAY} at {TIME}";
